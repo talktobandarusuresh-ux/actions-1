@@ -11,12 +11,6 @@ jobs:
         
       - name: list and read files
         run: |
-        echo "hi from github actions"
-        ls -lrta
-        cat README.md
-
-      #- name: listfiles
-      #  run: ls
-
-      #- name: Read file
-      #  run: cat README.md
+          echo "hi from github actions"
+          ls -lrta
+          cat README.md
