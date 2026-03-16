@@ -9,11 +9,14 @@ jobs:
       - name: CHECKOUT REPO
         uses: actions/checkout@v6
         
-      - name: welcome message
-        run: echo "hi from github actions"
+      - name: list and read files
+        run: |
+        echo "hi from github actions"
+        ls -lrta
+        cat README.md
 
-      - name: listfiles
-        run: ls
+      #- name: listfiles
+      #  run: ls
 
-      - name: Read file
-        run: cat README.md
+      #- name: Read file
+      #  run: cat README.md
